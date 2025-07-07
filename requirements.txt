@@ -1,0 +1,4 @@
+gymnasium
+gymnasium[box2d]
+opencv-python
+swig

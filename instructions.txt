@@ -1,0 +1,21 @@
+The following linux packages needs to be installed:
+
+1. swig             
+    SWIG, which stands for Simplified Wrapper and Interface Generator, 
+    is an open-source software development tool primarily used to connect programs 
+    written in C and C++ with a variety of high-level programming languages, including Python. 
+
+    SWIG acts as a compiler that reads C/C++ header files and generates "wrapper" or "glue" code. 
+    This wrapper code serves as an intermediary, allowing Python to call functions and access 
+    data structures defined in the C/C++ code.
+
+2. build-essential
+    In Linux, "build-essential" is a meta-package that pulls in all the necessary tools and libraries 
+    required to compile software from source code. 
+    It's essentially a collection of packages that are commonly needed for building software, 
+    particularly those written in C and C++. 
+
+Follow the steps:
+
+> sudo apt update
+> sudo apt install swig build-essential

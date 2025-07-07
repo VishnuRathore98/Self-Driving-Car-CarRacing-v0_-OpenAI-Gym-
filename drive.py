@@ -1,10 +1,10 @@
 # Drive car stright
 
-import gym
+import gymnasium as gym
 import numpy as np
 import cv2
 
-env = gym.make("CarRacing-v2", render_mode="human")  # 'rgb_array' for image-only
+env = gym.make("CarRacing-v3", render_mode="human")  # 'rgb_array' for image-only
 obs = env.reset()[0]
 
 for _ in range(1000):
